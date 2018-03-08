@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.PrincipalController">
+<AnchorPane id="AnchorPane" prefHeight="591.0" prefWidth="617.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.PrincipalController">
     <children>
-        <Button layoutX="126" layoutY="90" text="Click Me!" onAction="#handleButtonAction" fx:id="button" />
-        <Label layoutX="126" layoutY="120" minHeight="16" minWidth="69" fx:id="label" />
+        <Button fx:id="button" layoutX="265.0" layoutY="265.0" onAction="#handleButtonAction" prefHeight="62.0" prefWidth="87.0" text="sucesso" />
+      <Label layoutX="190.0" layoutY="23.0" prefHeight="38.0" prefWidth="238.0" text="precisava disso antes">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <CheckBox layoutX="117.0" layoutY="156.0" mnemonicParsing="false" text="CheckBox" />
+      <ColorPicker layoutX="370.0" layoutY="131.0" />
+      <ComboBox layoutX="57.0" layoutY="347.0" prefWidth="150.0" />
+      <DatePicker layoutX="364.0" layoutY="347.0" />
+      <HTMLEditor htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutX="4.0" layoutY="391.0" prefHeight="200.0" prefWidth="506.0" />
+      <ProgressIndicator layoutX="232.0" layoutY="91.0" progress="0.0" />
+      <PasswordField layoutX="377.0" layoutY="214.0" text="fhdfghf" />
+      <ToggleButton alignment="BOTTOM_RIGHT" contentDisplay="TOP" layoutX="227.0" layoutY="79.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="283.0" text="ToggleButton" textFill="RED" textOverrun="LEADING_ELLIPSIS" />
     </children>
 </AnchorPane>
